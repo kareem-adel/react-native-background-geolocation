@@ -45,7 +45,7 @@ dependencies {
     def androidPermissionsVersion = safeExtGet('androidPermissionsVersion', DEFAULT_ANDROID_PERMISSIONS_VERSION)
     def eventBusVersion = safeExtGet('eventBusVersion', DEFAULT_EVENTBUS_VERSION)
 
-    compileOnly 'com.facebook.react:react-native:+'
+    implementation 'com.facebook.react:react-native:+'
     implementation "$appCompatLibName:$supportLibVersion"
     implementation "com.google.android.gms:play-services-location:$playServicesLocationVersion"
     implementation "org.greenrobot:eventbus:$eventBusVersion"
