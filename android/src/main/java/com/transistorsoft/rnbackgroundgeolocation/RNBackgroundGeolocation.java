@@ -16,7 +16,7 @@ import com.facebook.react.bridge.JavaScriptModule;
 public class RNBackgroundGeolocation implements ReactPackage {
     @Override public List<NativeModule> createNativeModules (ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        //modules.add(new RNBackgroundGeolocationModule(reactContext));
+        modules.add(new RNBackgroundGeolocationModule(reactContext));
         return modules;
     }
 
