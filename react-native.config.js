@@ -8,7 +8,7 @@ module.exports = {
           "libz"
         ]
       },
-      android: {}, // projects are grouped into "platforms"
+      //android: {}, // projects are grouped into "platforms"
     },
     assets: [], // stays the same
     // hooks are considered anti-pattern, please avoid them
